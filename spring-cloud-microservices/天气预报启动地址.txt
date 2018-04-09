@@ -1,0 +1,28 @@
+gradlew build
+
+多实例启动
+java -jar msa-weather-city-eureka-0.0.1-SNAPSHOT.jar --server.port=8081
+java -jar msa-weather-city-eureka-0.0.1-SNAPSHOT.jar --server.port=8082
+
+java -jar msa-weather-collection-eureka-feign-0.0.1-SNAPSHOT.jar --server.port=8083
+java -jar msa-weather-collection-eureka-feign-0.0.1-SNAPSHOT.jar --server.port=8084
+
+java -jar msa-weather-data-eureka-0.0.1-SNAPSHOT.jar --server.port=8085
+java -jar msa-weather-data-eureka-0.0.1-SNAPSHOT.jar --server.port=8086
+
+java -jar msa-weather-report-eureka-feign-gateway-0.0.1-SNAPSHOT.jar --server.port=8087
+java -jar msa-weather-report-eureka-feign-gateway-0.0.1-SNAPSHOT.jar --server.port=8088
+
+java -jar msa-weather-eureka-client-zuul-0.0.1-SNAPSHOT.jar --server.port=8089
+
+
+微服务名称
+8761：EurekaServer 
+9091：CityService
+9092：DataService
+9093：CollectionService
+9094：ReportService
+9099：GatewayService
+
+启动地址
+http://localhost:9094/report/cityId/101280601

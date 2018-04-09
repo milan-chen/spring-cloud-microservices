@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>mokeychan的天气预报(ininan.fun)</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3 th:text="${reportModel.title}">ininan.fun</h3>
+            <select class="custom-select" id="selectCityId">
+                <option th:each="city : ${reportModel.cityList}"
+                        th:value="${city.cityId}" th:text="${city.cityName}"
+                        th:selected="${city.cityId eq reportModel.cityId}"></option>
+            </select>
+        </div>
+
+        <div th:if="${reportModel.report} !=null">
+            <div class="row">
+                <h1 class="text-success" th:text="${reportModel.report.city}">城市名称</h1>
+            </div>
+            <div class="row">
+                <p>
+                    当前温度：
+                    <span th:text="${reportModel.report.wendu}"></span>
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    空气质量指数：
+                    <span th:text="${reportModel.report.aqi}"></span>
+                </p>
+            </div>
+            <div class="row">
+                <p>
+                    温馨提示：
+                    <span th:text="${reportModel.report.ganmao}"></span>
+                </p>
+            </div>
+            <div class="row">
+                <div class="card border-info" th:each="forecast : ${reportModel.report.forecast}">
+                    <div class="card-body text-info">
+                        <p class="card-text" th:text="${forecast.date}">
+                            日期
+                        </p>
+                        <p class="card-text" th:text="${forecast.type}">
+                            天气类型
+                        </p>
+                        <p class="card-text" th:text="${forecast.high}">
+                            最高温度
+                        </p>
+                        <p class="card-text" th:text="${forecast.low}">
+                            最低温度
+                        </p>
+                        <p class="card-text" th:text="${forecast.fengxiang}">
+                            风向
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div th:if="${reportModel.report} ==null">
+            <div class="row">
+                <p>
+                    天气数据API服务暂不可用！
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" th:src="@{/js/weather/report.js}"></script>
+
+</body>
+</html>
