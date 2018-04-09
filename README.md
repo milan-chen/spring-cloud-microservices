@@ -18,7 +18,7 @@
 * Gradle 4
 * HttpClient 4.5.3
 * Redis 3.2
-* SpringBoot 2.0.0.RElEASE
+* SpringBoot 2.0.0.RELEASE
 * Spring Cloud Finchley.M9
 
 ## 项目实现(主要)
