@@ -22,6 +22,16 @@
 * Spring Cloud Finchley.M9
 
 ## 项目实现(主要)
+* [SpringBoot搭建天气预报微服务系统(单体架构)]()
+* [SpringBoot集成Redis缓存]()
+* [SpringBoot集成Quartz定时框架]()
+* [SpringBoot结合Thymeleaf模板与Bootstrap快速搭建界面]()
+* [单体架构到微服务架构的拆分]()
+* [SpringCloud微服务组件—Eureka服务注册与发现]()
+* [SpringCloud微服务组件—Feign负载均衡与高可用]()
+* [SpringCloud微服务组件—Zuul实现API官网分配]()
+* [SpringCloud微服务组件—Config集中实现配置管理]()[SpringCloud微服务组件—Hystrix服务熔断机制]()
+
 
 ## 感谢
 通过老卫的教学视频，让自己对微服务方面知识有一定的了解。
