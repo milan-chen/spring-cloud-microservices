@@ -29,7 +29,7 @@
 * [单体架构到微服务架构的拆分]()
 * [SpringCloud微服务组件—Eureka服务注册与发现]()
 * [SpringCloud微服务组件—Feign负载均衡与高可用]()
-* [SpringCloud微服务组件—Zuul实现API官网分配]()
+* [SpringCloud微服务组件—Zuul实现API网关分配]()
 * [SpringCloud微服务组件—Config集中实现配置管理]()
 * [SpringCloud微服务组件—Hystrix服务熔断机制]()
 
