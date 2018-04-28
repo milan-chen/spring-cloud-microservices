@@ -22,7 +22,7 @@
 * Spring Cloud Finchley.M9
 
 ## 项目实现(主要)
-* [SpringBoot搭建天气预报微服务系统(单体架构)]()
+* [SpringBoot搭建天气预报微服务系统(单体架构)](https://blog.csdn.net/qq_33764491/article/details/80136045)
 * [SpringBoot集成Redis缓存]()
 * [SpringBoot集成Quartz定时框架]()
 * [SpringBoot结合Thymeleaf模板与Bootstrap快速搭建界面]()
