@@ -25,7 +25,7 @@
 * [SpringBoot搭建天气预报微服务系统(单体架构)](https://blog.csdn.net/qq_33764491/article/details/80136045)
 * [SpringBoot集成Redis缓存](https://blog.csdn.net/qq_33764491/article/details/80137711)
 * [SpringBoot集成Quartz定时框架](https://blog.csdn.net/qq_33764491/article/details/80137965)
-* [SpringBoot结合Thymeleaf模板与Bootstrap快速搭建界面]()
+* [SpringBoot结合Thymeleaf模板与Bootstrap快速搭建界面](https://blog.csdn.net/qq_33764491/article/details/80490231)
 * [单体架构到微服务架构的拆分]()
 * [SpringCloud微服务组件—Eureka服务注册与发现]()
 * [SpringCloud微服务组件—Feign负载均衡与高可用]()
