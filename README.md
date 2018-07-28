@@ -27,14 +27,11 @@
 * [SpringBoot集成Quartz定时框架](https://blog.csdn.net/qq_33764491/article/details/80137965)
 * [SpringBoot结合Thymeleaf模板与Bootstrap快速搭建界面](https://blog.csdn.net/qq_33764491/article/details/80490231)
 * [单体架构到微服务架构的拆分](https://blog.csdn.net/qq_33764491/article/details/80795504)
-* [SpringCloud微服务组件—Eureka服务注册与发现]()
+* [SpringCloud微服务组件—Eureka服务注册与发现](https://blog.csdn.net/qq_33764491/article/details/81266407)
 * [SpringCloud微服务组件—Feign负载均衡与高可用]()
 * [SpringCloud微服务组件—Zuul实现API网关分配]()
 * [SpringCloud微服务组件—Config集中实现配置管理]()
 * [SpringCloud微服务组件—Hystrix服务熔断机制]()
 
-
-## 感谢
-通过老卫的教学视频，让自己对微服务方面知识有一定的了解。
 
 
