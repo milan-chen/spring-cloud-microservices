@@ -32,7 +32,7 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 ext {
-	springCloudVersion = 'Finchley.M9'
+	springCloudVersion = 'Finchley.RELEASE'
 }
 
 //指定Maven的仓库
