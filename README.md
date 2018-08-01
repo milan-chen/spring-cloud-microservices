@@ -19,7 +19,7 @@
 * HttpClient 4.5.3
 * Redis 3.2
 * SpringBoot 2.0.0.RELEASE
-* Spring Cloud Finchley.RELESE
+* Spring Cloud Finchley.RELEASE
 
 ## 项目实现(主要)
 * [SpringBoot搭建天气预报微服务系统(单体架构)](https://blog.csdn.net/qq_33764491/article/details/80136045)
