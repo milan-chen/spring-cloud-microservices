@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: micro-weather-config-client
+  cloud:
+    config:
+      uri: http://localhost:9090/
+      profile: default
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 9089
+

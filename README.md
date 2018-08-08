@@ -12,6 +12,8 @@
 * ReportService 天气预报微服务
 * GateWayService 网关微服务
 
+* ConfigServer && ConfigClient 配置中心
+
 ## 项目环境
 * JDK 1.8
 * IDEA 2017.3

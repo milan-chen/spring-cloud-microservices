@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-weather.iml" filepath="$PROJECT_DIR$/spring-cloud-weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-microservices.iml" filepath="$PROJECT_DIR$/spring-cloud-microservices.iml" />
     </modules>
   </component>
 </project>

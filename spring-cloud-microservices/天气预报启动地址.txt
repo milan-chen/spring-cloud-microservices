@@ -24,5 +24,8 @@ java -jar msa-weather-eureka-client-zuul-0.0.1-SNAPSHOT.jar --server.port=8089
 9094£∫ReportService
 9099£∫GatewayService
 
+9089£∫ConfigClient
+9090: ConfigServer
+
 ∆Ù∂Øµÿ÷∑
 http://localhost:9094/report/cityId/101280601

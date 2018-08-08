@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99a55586-8c9d-4cdf-9c67-e10ba7d9d2f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="96e23f43-2d3d-478c-a7f0-26a40f70c7c1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,14 +43,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="spring-cloud-weather" />
+              <option name="name" value="spring-cloud-microservices" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="spring-cloud-weather" />
+                <option name="name" value="spring-cloud-microservices" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -64,27 +69,27 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'spring-cloud-weather'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'spring-cloud-microservices'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'spring-cloud-weather'." />
+                <option name="description" value="Displays the sub-projects of root project 'spring-cloud-microservices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'spring-cloud-weather'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'spring-cloud-microservices'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'spring-cloud-weather'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'spring-cloud-microservices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'spring-cloud-weather'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'spring-cloud-microservices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -94,7 +99,7 @@
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'spring-cloud-weather'." />
+                <option name="description" value="Displays all dependencies declared in root project 'spring-cloud-microservices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -104,17 +109,17 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'spring-cloud-weather'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'spring-cloud-microservices'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'spring-cloud-weather'." />
+                <option name="description" value="Displays the properties of root project 'spring-cloud-microservices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'spring-cloud-weather'." />
+                <option name="description" value="Displays the tasks runnable from root project 'spring-cloud-microservices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -144,7 +149,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="spring-cloud-weather" />
+              <option name="name" value="spring-cloud-microservices" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="D:/gradle-4.6/lib/ant-1.9.9.jar" />
@@ -243,6 +248,8 @@
         <entry key="$PROJECT_DIR$/../RedPacket" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../demo" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/../spring-cloud-weather" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-cloud-weather/spring-cloud-microservices/micro-weather-eureka-server" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -267,7 +274,6 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -283,63 +289,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-cloud-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-microservices" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="spring-cloud-microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-microservices" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-weather-eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="micro-weather-quartz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="msa-weather-city-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="msa-weather-collection-eureka-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="msa-weather-data-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="msa-weather-eureka-client-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-weather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="spring-cloud-microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="msa-weather-report-eureka-feign-gateway-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,17 +419,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="99a55586-8c9d-4cdf-9c67-e10ba7d9d2f8" name="Default" comment="" />
-      <created>1533019650640</created>
+      <changelist id="96e23f43-2d3d-478c-a7f0-26a40f70c7c1" name="Default" comment="" />
+      <created>1533188786854</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533019650640</updated>
-      <workItem from="1533019651990" duration="60000" />
+      <updated>1533188786854</updated>
+      <workItem from="1533188788392" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60000" />
+    <option name="totallyTimeSpent" value="69000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
